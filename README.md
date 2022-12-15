@@ -4,6 +4,7 @@ A construção de um serviço ou API baseado em gRPC começa com a definição d
 
 Neste exemplo, o serviço HelloWorld tem duas operações HelloMessage e HelloStream que recebem e retornam duas estruturas de dados HelloRequest e HelloResponse . A operação HelloStream mostra como enviar ao cliente um número indeterminado de mensagens para o cliente que as processa à medida que são enviadas pelo servidor. O esquema também contém algumas opções utilizadas pelo gRPC para customizar a geração das classes que servem de base para a implementação.
 
+# :hammer: Informações:
 - Repositorio de referencia: https://github.com/picodotdev/blog-ejemplos.
 - IDE utilizada foi o IntelliJ Community, você pode usar a que você quiser.
 - Java 18.
